@@ -4,9 +4,9 @@
 
   {% capture title %}
     {%- if page.share-title -%}
-      {{ page.share-title | strip_html | xml_escape }}
+      {% t page.share-title %}
     {%- elsif page.title -%}
-      {{ page.title | strip_html | xml_escape  }}
+      {% t page.title %}        
     {%- else -%}
       {{ site.title | strip_html | xml_escape }}
     {%- endif -%}
@@ -23,7 +23,7 @@
     {%- endif -%}
   {% endcapture %}
 
-  <title>{{ title }}</title>
+  <title>{{ title | strip_html | xml_escape }}</title>
 
   {% if site.author %}
   <meta name="author" content="{{ site.author }}">
