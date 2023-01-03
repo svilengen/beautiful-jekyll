@@ -7,5 +7,5 @@ gemspec
 
 gem "webrick", "~> 1.7"
 gem 'jekyll-admin', group: :jekyll_plugins
-gem 'jekyll-multiple-languages-plugin'
+gem 'jekyll-multiple-languages-plugin', "<1.8.0"
 
