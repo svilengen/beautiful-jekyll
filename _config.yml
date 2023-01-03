@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: Website for testing jekyll templates
 
 # Your name to show in the footer
-author: Some Person
+author: S G
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -129,7 +129,7 @@ navbar-col: "#EAEAEA"
 navbar-text-col: "#404040"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
-text-col: "#404040"
+text-col: "green"
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#EAEAEA"
