@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Za Nas
+title: titles.about
 permalink: /about/
 ---
 

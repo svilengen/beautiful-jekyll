@@ -1,6 +1,6 @@
 ---
 layout: post
-# title: Запись-пример
+title: Запись-пример
 cover: cover.jpg
 date:   2013-12-09 12:00:00
 categories: ru posts записи

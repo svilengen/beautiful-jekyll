@@ -1,6 +1,6 @@
 global:
-  tagline: English
-  about: About
+  tagline: Deutsch
+  about: Uber Uns
   twitter: Twitter
   github: GitHub
 langs:
@@ -11,5 +11,5 @@ pages:
   example: example
   includeexample: The following text is a Jekyll include liquid tag parameter
 titles:
-  about: About Us
   pagination: Pagination
+  about: Uber Uns

@@ -11,5 +11,5 @@ pages:
   example: Пример
   includeexample: El siguiente texto es un parámetro de Jekyll include liquid tag
 titles:
-  about: За Нас
   pagination: Страниране
+  about: За нас

@@ -1,6 +1,6 @@
 ---
 layout: post
-# title: Example post 2
+title: Example post 2
 cover: cover.jpg
 date:   2013-12-08 12:00:00
 categories: de posts
