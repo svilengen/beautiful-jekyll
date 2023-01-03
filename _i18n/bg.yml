@@ -1,0 +1,15 @@
+global:
+  tagline: Български
+  about: За нас
+  twitter: Twitter
+  github: GitHub
+langs:
+  de: Deutsch
+  ru: Русский
+  bg: Български
+pages:
+  example: Пример
+  includeexample: El siguiente texto es un parámetro de Jekyll include liquid tag
+titles:
+  about: За Нас
+  pagination: Страниране
