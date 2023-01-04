@@ -41,20 +41,26 @@
        {% for lang in site.languages %}
         {% unless site.lang == lang %}
           {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
-            <a href="{{ site.baseurl_root }}{{ page.url }}" >
+          <li class="nav-item">
+            <a class="nav-link lang-icon" href="{{ site.baseurl_root }}{{ page.url }}" >
               {{ site.translations[site.lang].langs[lang].icon}}
             </a>
+          </li>
           {% else %}
-            <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >
+          <li class="nav-item">
+            <a class="nav-link lang-icon" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >
               {{ site.translations[site.lang].langs[lang].icon}}              
             </a>
+          </li>
           {% endif %}
           
           {% assign next = forloop.index | plus: 1 %}
           
-          {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
-            <span class="separator"> &bull; </span>
-          {% endif %}
+          <!-- {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
+          <li class="nav-item">
+            <span class="separator nav-link"> &bull; </span>
+          </li>
+          {% endif %} -->
           
         {% endunless %}
       {% endfor %}

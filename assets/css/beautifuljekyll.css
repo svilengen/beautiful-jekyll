@@ -1118,3 +1118,8 @@ pre {
     display: inline-block;
   }
 }
+
+/* custom */
+.lang-icon {
+  font-size: x-large;
+}
