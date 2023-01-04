@@ -40,13 +40,13 @@
       {%- endif -%}
        {% for lang in site.languages %}
         {% unless site.lang == lang %}
-          {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
-          <li class="nav-item">
+          {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}          
+          <li class="nav-item">            
             <a class="nav-link lang-icon" href="{{ site.baseurl_root }}{{ page.url }}" >
               {{ site.translations[site.lang].langs[lang].icon}}
             </a>
           </li>
-          {% else %}
+          {% else %}         
           <li class="nav-item">
             <a class="nav-link lang-icon" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >
               {{ site.translations[site.lang].langs[lang].icon}}              

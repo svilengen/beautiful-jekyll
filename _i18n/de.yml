@@ -18,8 +18,11 @@ pages:
   includeexample: The following text is a Jekyll include liquid tag parameter
 titles:
   pagination: Pagination
-  about: Uber Uns
+  about: Über Uns
   products: Produkte
 navbar-links:
-  about: Uber Uns
+  about: Über Uns
   products: Produkte
+  services: Dienste
+  policy: Politik
+  contacts: Kontakt

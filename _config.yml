@@ -22,10 +22,12 @@ author: ladida AAA
 navbar-links:
   about: "about"
   products: "products"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://metarem.com"
+  services: "services"
+  policy: "policy"
+  contacts: "contacts"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #
