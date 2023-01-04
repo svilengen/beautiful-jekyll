@@ -28,11 +28,14 @@
         {% capture nav-item-name %}
         {{ link[1] }}
         {% endcapture %}
+        {%- capture nav-item-name-handle -%}
+        navbar-links.{{nav-item-name}}
+        {%- endcapture - %}
         {% capture nav-item-name-tr %}
-        {% t titles.about %}
+        {% t nav-item-name-handle %}
         {% endcapture %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ link[1] | relative_url }}">  | {{ site.lang }} | {{ link[0] }}</a>
+            <a class="nav-link" href="{{ link[1] | relative_url }}"> {{ nav-item-name-handle }} | {{ site.lang }} | {{ link[0] }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}

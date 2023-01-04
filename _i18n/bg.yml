@@ -13,3 +13,5 @@ pages:
 titles:
   pagination: Страниране
   about: За нас
+navbar-links:
+  about: За нас

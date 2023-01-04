@@ -13,3 +13,5 @@ pages:
 titles:
   pagination: Pagination
   about: Uber Uns
+navbar-links:
+  about: Uber Uns

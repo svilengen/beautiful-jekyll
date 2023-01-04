@@ -13,3 +13,5 @@ pages:
 titles:
   pagination: Страницы
   about: О нас
+navbar-links:
+  about: О нас
