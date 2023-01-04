@@ -13,5 +13,7 @@ pages:
 titles:
   pagination: Страницы
   about: О нас
+  products: Продукты
 navbar-links:
   about: О нас
+  products: Продукты

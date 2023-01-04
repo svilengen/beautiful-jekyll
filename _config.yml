@@ -20,7 +20,8 @@ author: ladida AAA
 ###############################################
 
 navbar-links:
-  About Me: "about"
+  about: "about"
+  products: "products"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"

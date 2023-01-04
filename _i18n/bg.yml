@@ -13,5 +13,7 @@ pages:
 titles:
   pagination: Страниране
   about: За нас
+  products: Продукти
 navbar-links:
   about: За нас
+  products: Продукти
