@@ -4,9 +4,15 @@ global:
   twitter: Twitter
   github: GitHub
 langs:
-  de: Deutsch
-  ru: Русский
-  bg: Български
+  de: 
+    name: Deutsch
+    icon: 🇩🇪
+  ru: 
+    name: Русский
+    icon: 🇷🇺
+  bg: 
+    name: Български
+    icon: 🇧🇬
 pages:
   example: пример
   includeexample: Следующий текст содержит изменяющийся тег-пареметр Jekyll

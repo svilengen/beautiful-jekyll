@@ -4,9 +4,15 @@ global:
   twitter: Twitter
   github: GitHub
 langs:
-  de: Deutsch
-  ru: Русский
-  bg: Български
+  de: 
+    name: Deutsch
+    icon: 🇩🇪
+  ru: 
+    name: Русский
+    icon: 🇷🇺
+  bg: 
+    name: Български
+    icon: 🇧🇬
 pages:
   example: Пример
   includeexample: El siguiente texto es un parámetro de Jekyll include liquid tag
